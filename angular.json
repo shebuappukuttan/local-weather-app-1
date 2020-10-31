@@ -84,8 +84,14 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/localcast-theme.scss", "src/styles.css"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/localcast-theme.scss",
+              "src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -99,8 +105,14 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["tsconfig.app.json", "tsconfig.spec.json", "e2e/tsconfig.json"],
-            "exclude": ["**/node_modules/**"]
+            "tsConfig": [
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -134,8 +146,13 @@
             "polyfills": "projects/ch2/src/polyfills.ts",
             "tsConfig": "projects/ch2/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch2/src/favicon.ico", "projects/ch2/src/assets"],
-            "styles": ["projects/ch2/src/styles.css"],
+            "assets": [
+              "projects/ch2/src/favicon.ico",
+              "projects/ch2/src/assets"
+            ],
+            "styles": [
+              "projects/ch2/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -193,8 +210,13 @@
             "polyfills": "projects/ch2/src/polyfills.ts",
             "tsConfig": "projects/ch2/tsconfig.spec.json",
             "karmaConfig": "projects/ch2/karma.conf.js",
-            "assets": ["projects/ch2/src/favicon.ico", "projects/ch2/src/assets"],
-            "styles": ["projects/ch2/src/styles.css"],
+            "assets": [
+              "projects/ch2/src/favicon.ico",
+              "projects/ch2/src/assets"
+            ],
+            "styles": [
+              "projects/ch2/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -213,7 +235,9 @@
               "projects/ch2/tsconfig.spec.json",
               "projects/ch2/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -247,8 +271,13 @@
             "polyfills": "projects/ch3/src/polyfills.ts",
             "tsConfig": "projects/ch3/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch3/src/favicon.ico", "projects/ch3/src/assets"],
-            "styles": ["projects/ch3/src/styles.css"],
+            "assets": [
+              "projects/ch3/src/favicon.ico",
+              "projects/ch3/src/assets"
+            ],
+            "styles": [
+              "projects/ch3/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -306,8 +335,13 @@
             "polyfills": "projects/ch3/src/polyfills.ts",
             "tsConfig": "projects/ch3/tsconfig.spec.json",
             "karmaConfig": "projects/ch3/karma.conf.js",
-            "assets": ["projects/ch3/src/favicon.ico", "projects/ch3/src/assets"],
-            "styles": ["projects/ch3/src/styles.css"],
+            "assets": [
+              "projects/ch3/src/favicon.ico",
+              "projects/ch3/src/assets"
+            ],
+            "styles": [
+              "projects/ch3/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -326,7 +360,9 @@
               "projects/ch3/tsconfig.spec.json",
               "projects/ch3/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -360,8 +396,13 @@
             "polyfills": "projects/ch4/src/polyfills.ts",
             "tsConfig": "projects/ch4/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch4/src/favicon.ico", "projects/ch4/src/assets"],
-            "styles": ["projects/ch4/src/styles.css"],
+            "assets": [
+              "projects/ch4/src/favicon.ico",
+              "projects/ch4/src/assets"
+            ],
+            "styles": [
+              "projects/ch4/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -419,8 +460,13 @@
             "polyfills": "projects/ch4/src/polyfills.ts",
             "tsConfig": "projects/ch4/tsconfig.spec.json",
             "karmaConfig": "projects/ch4/karma.conf.js",
-            "assets": ["projects/ch4/src/favicon.ico", "projects/ch4/src/assets"],
-            "styles": ["projects/ch4/src/styles.css"],
+            "assets": [
+              "projects/ch4/src/favicon.ico",
+              "projects/ch4/src/assets"
+            ],
+            "styles": [
+              "projects/ch4/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -439,7 +485,9 @@
               "projects/ch4/tsconfig.spec.json",
               "projects/ch4/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -473,7 +521,10 @@
             "polyfills": "projects/ch5/src/polyfills.ts",
             "tsConfig": "projects/ch5/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch5/src/favicon.ico", "projects/ch5/src/assets"],
+            "assets": [
+              "projects/ch5/src/favicon.ico",
+              "projects/ch5/src/assets"
+            ],
             "styles": [
               "projects/ch5/src/localcast-theme.scss",
               "projects/ch5/src/styles.css"
@@ -535,7 +586,10 @@
             "polyfills": "projects/ch5/src/polyfills.ts",
             "tsConfig": "projects/ch5/tsconfig.spec.json",
             "karmaConfig": "projects/ch5/karma.conf.js",
-            "assets": ["projects/ch5/src/favicon.ico", "projects/ch5/src/assets"],
+            "assets": [
+              "projects/ch5/src/favicon.ico",
+              "projects/ch5/src/assets"
+            ],
             "styles": [
               "projects/ch5/src/localcast-theme.scss",
               "projects/ch5/src/styles.css"
@@ -558,7 +612,9 @@
               "projects/ch5/tsconfig.spec.json",
               "projects/ch5/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -592,7 +648,10 @@
             "polyfills": "projects/ch6/src/polyfills.ts",
             "tsConfig": "projects/ch6/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch6/src/favicon.ico", "projects/ch6/src/assets"],
+            "assets": [
+              "projects/ch6/src/favicon.ico",
+              "projects/ch6/src/assets"
+            ],
             "styles": [
               "projects/ch6/src/localcast-theme.scss",
               "projects/ch6/src/styles.css"
@@ -654,7 +713,10 @@
             "polyfills": "projects/ch6/src/polyfills.ts",
             "tsConfig": "projects/ch6/tsconfig.spec.json",
             "karmaConfig": "projects/ch6/karma.conf.js",
-            "assets": ["projects/ch6/src/favicon.ico", "projects/ch6/src/assets"],
+            "assets": [
+              "projects/ch6/src/favicon.ico",
+              "projects/ch6/src/assets"
+            ],
             "styles": [
               "projects/ch6/src/localcast-theme.scss",
               "projects/ch6/src/styles.css"
@@ -677,7 +739,9 @@
               "projects/ch6/tsconfig.spec.json",
               "projects/ch6/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -711,7 +775,10 @@
             "polyfills": "projects/ch12/src/polyfills.ts",
             "tsConfig": "projects/ch12/tsconfig.app.json",
             "aot": true,
-            "assets": ["projects/ch12/src/favicon.ico", "projects/ch12/src/assets"],
+            "assets": [
+              "projects/ch12/src/favicon.ico",
+              "projects/ch12/src/assets"
+            ],
             "styles": [
               "projects/ch12/src/localcast-theme.scss",
               "projects/ch12/src/styles.css"
@@ -773,7 +840,10 @@
             "polyfills": "projects/ch12/src/polyfills.ts",
             "tsConfig": "projects/ch12/tsconfig.spec.json",
             "karmaConfig": "projects/ch12/karma.conf.js",
-            "assets": ["projects/ch12/src/favicon.ico", "projects/ch12/src/assets"],
+            "assets": [
+              "projects/ch12/src/favicon.ico",
+              "projects/ch12/src/assets"
+            ],
             "styles": [
               "projects/ch12/src/localcast-theme.scss",
               "projects/ch12/src/styles.css"
@@ -796,7 +866,9 @@
               "projects/ch12/tsconfig.spec.json",
               "projects/ch12/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -815,5 +887,8 @@
       }
     }
   },
-  "defaultProject": "local-weather-app"
+  "defaultProject": "local-weather-app",
+  "cli": {
+    "analytics": "eddcb90f-9188-41a3-8195-136c9a0be1b1"
+  }
 }
